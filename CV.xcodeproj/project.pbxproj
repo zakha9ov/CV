@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A563B3012503FB76008F0B46 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563B3002503FB76008F0B46 /* File.swift */; };
 		A5D6B8F524FAE0F6004EFF88 /* HellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6B8F424FAE0F6004EFF88 /* HellowViewController.swift */; };
 		A5D6B8F724FB9C6E004EFF88 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6B8F624FB9C6E004EFF88 /* InfoViewController.swift */; };
 		A5D6B8F924FBA078004EFF88 /* CaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6B8F824FBA078004EFF88 /* CaseViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A563B3002503FB76008F0B46 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A5D6B8F424FAE0F6004EFF88 /* HellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellowViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A5D6B8F624FB9C6E004EFF88 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		A5D6B8F824FBA078004EFF88 /* CaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		A5F4B8EF24FA6192003069E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A563B3002503FB76008F0B46 /* File.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				A5F4B8DF24FA6132003069E0 /* LoginViewController.swift in Sources */,
 				A5F4B8DB24FA6132003069E0 /* AppDelegate.swift in Sources */,
+				A563B3012503FB76008F0B46 /* File.swift in Sources */,
 				A5D6B8F924FBA078004EFF88 /* CaseViewController.swift in Sources */,
 				A5F4B8DD24FA6132003069E0 /* SceneDelegate.swift in Sources */,
 				A5D6B8F524FAE0F6004EFF88 /* HellowViewController.swift in Sources */,
