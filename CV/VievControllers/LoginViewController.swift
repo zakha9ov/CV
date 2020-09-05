@@ -12,8 +12,12 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var passeordTextField: UITextField!
     
+    private let firstGradirntColor: UIColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+    private let lastGradientColor: UIColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        addVerticalGradientLayer(topColor: firstGradirntColor, bottomColor: lastGradientColor)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -80,6 +84,18 @@ extension LoginViewController: UITextFieldDelegate {
            }
            return true
        }
+}
+
+extension LoginViewController {
+    func addVerticalGradientLayer(topColor: UIColor, bottomColor: UIColor) {
+        let gradient = CAGradientLayer()
+        gradient.frame = view.bounds
+        gradient.colors = [topColor.cgColor, bottomColor.cgColor]
+        gradient.locations = [0.0, 1.0]
+        gradient.startPoint = CGPoint(x: 0, y: 0)
+        gradient.endPoint = CGPoint(x: 0, y: 1)
+        view.layer.insertSublayer(gradient, at: 0)
+    }
 }
 
 
